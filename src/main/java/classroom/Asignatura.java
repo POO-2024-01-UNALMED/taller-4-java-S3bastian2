@@ -42,8 +42,8 @@ public class Asignatura {
         //this.codigoInterno = codigoInterno;
     //}
 
-    public void cambiarDatos(double codigoExterno) {
-        this.codigoExterno = (int) codigoExterno;
+    public void cambiarDatos(int codigoExterno) {
+        this.codigoExterno = codigoExterno;
     }
 
     public void cambiarDatos(String nombre) {
