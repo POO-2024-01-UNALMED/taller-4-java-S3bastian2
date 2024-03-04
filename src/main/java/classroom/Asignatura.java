@@ -9,7 +9,7 @@ public class Asignatura {
     public Tipo tipo;
 
     public Asignatura() {
-        this("Sin nombre",0,0,Tipo.FUNDAMENTACION);
+        this("Sin nombre",Tipo.FUNDAMENTACION);
     }
 
     public Asignatura(double codigoInterno,Tipo tipo) {
